@@ -2,7 +2,7 @@ $(document).ready(function() {
 // ***************************
 var cpuNumberArray = [];
 var userNumberArrayTriggered = [];
-var seconds = 30;
+var seconds = 5;
 
 while (cpuNumberArray.length < 5) {
     var cpuRandomNumber = getRandomIntInclusive(1, 1000);
