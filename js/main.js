@@ -42,7 +42,7 @@ function getRandomIntInclusive(min, max) {
 function lostMemoryResponse(cpuArray, userArrayTriggered) {
     var userNumber;
     var x = 1;
-    while (x !== 6) {
+    while (x <= 5) {
         userNumber = parseInt(prompt('[' + x + '] Inserisci i numeri:'))
         if (checkNumberInArray(cpuArray, userNumber) && checkNumberInArray(userArrayTriggered, userNumber) == false) {
             userArrayTriggered.push(userNumber);
