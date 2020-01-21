@@ -53,8 +53,7 @@ function lostMemoryResponse(cpuArray, userArrayTriggered) {
         'Hai ricordato ' +
         userArrayTriggered.length + ' numeri: \n' + userArrayTriggered
         +
-        '\nNon hai ricordato ' +
-        arrayCompare(cpuArray, userArrayTriggered).length + ' numeri: \n' + arrayCompare(cpuArray, userArrayTriggered)
+        '\nNon hai ricordato: ' + arrayCompare(cpuArray, userArrayTriggered)
     );
 }
 
