@@ -25,8 +25,8 @@ var timer = setInterval(function() {
 
 // *************************************************************
 function checkNumberInArray(array, number) {
-    for (var x = 0; x < array.length; x++) {
-        if (array[x] === number) {
+    for (var y = 0; y < array.length; y++) {
+        if (array[y] === number) {
             return true;
         }
     }
