@@ -18,6 +18,7 @@ var timer = setInterval(function() {
     if (seconds === 0) {
         clearInterval(timer);
         lostMemoryResponse(cpuNumberArray, userNumberArrayTriggered);
+        countdownHtml('Punteggio: ' + userNumberArrayTriggered.length);
     }
 }, 1000);
 // ***************************
